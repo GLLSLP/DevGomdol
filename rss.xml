@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰]]></title><description><![CDATA[곰의 개발일지]]></description><link>https://gllslp.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 23 Feb 2022 04:42:08 GMT</lastBuildDate><item><title><![CDATA[Git stash란]]></title><description><![CDATA[하던 작업을 임시로 저장 해두고 싶을 때 사용하는 명령어    작업 도중 잠시 다른 브랜치로 변경해야할때, 아직 완성되지 않은 일을 commit하기에는 껄끄럽다.    git stash…]]></description><link>https://gllslp.github.io/Git/Git stash란/</link><guid isPermaLink="false">https://gllslp.github.io/Git/Git stash란/</guid><pubDate>Mon, 21 Feb 2022 20:34:00 GMT</pubDate><content:encoded>&lt;p&gt;하던 작업을 임시로 저장 해두고 싶을 때 사용하는 명령어   &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰]]></title><description><![CDATA[곰의 개발일지]]></description><link>https://gllslp.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Mar 2022 07:03:03 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[C# - Dictionary와 Hashtable의 차이점 Dictionary와 Hashtable은 둘다 key, value 쌍을 가진 컬렉션으로, 같은 기능을 가지고 있다. 근데 Dictionary만 사용하고, Hashtable…]]></description><link>https://gllslp.github.io/C#/C# - Dictionary와 Hashtable의 차이점/</link><guid isPermaLink="false">https://gllslp.github.io/C#/C# - Dictionary와 Hashtable의 차이점/</guid><content:encoded>&lt;h1 id=&quot;c---dictionary와-hashtable의-차이점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#c---dictionary%EC%99%80-hashtable%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90&quot; aria-label=&quot;c   dictionary와 hashtable의 차이점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;C# - Dictionary와 Hashtable의 차이점&lt;/h1&gt;
+&lt;p&gt;Dictionary와 Hashtable은 둘다 key, value 쌍을 가진 컬렉션으로, 같은 기능을 가지고 있다.&lt;/p&gt;
+&lt;p&gt;근데 Dictionary만 사용하고, Hashtable은 사용하면 안된다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;이유&lt;/strong&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Hashtable은 Dictionary와의 호환을 위해 남아있긴 하지만 오래된 클래스이다. &lt;/li&gt;
+&lt;li&gt;Dictionary와 호환이 된다 하더라도 완전히 되는게 아니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;-&gt; (예시) 존재하지 않는 키값을 가져오려고 할때, Hashtable은 null이 발생하고 Dictionary는 예외가 발생한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;결론&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hashtable은 지원을 끊기 전에 유예기간을 주기위해 남겨둔 클래스라서 이미 사용했다면 언젠간 바꾸는것이 좋고 새로운 프로그램에서는 사용하지 않아야 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MarkDown 오류 can not read a block mapping entry; a multiline key may not be an implicit key 해결법]]></title><description><![CDATA[개츠비 빌드 (gatsby build && gh-pages -d public -b gh-pages) 하니까 이런 오류가 났다. image-20220302155945006 해결법 title을 ’ ‘로 감싸는게 아니라 ” “로 감싼다.]]></description><link>https://gllslp.github.io/Git/오류 can not read a block mapping entry; a multiline key may not be an implicit key 해결법/</link><guid isPermaLink="false">https://gllslp.github.io/Git/오류 can not read a block mapping entry; a multiline key may not be an implicit key 해결법/</guid><pubDate>Wed, 02 Mar 2022 16:01:00 GMT</pubDate><content:encoded>&lt;p&gt;개츠비 빌드 (gatsby build &amp;#x26;&amp;#x26; gh-pages -d public -b gh-pages) 하니까 이런 오류가 났다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:%5CUsers%5Cborad%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220302155945006.png&quot; alt=&quot;image-20220302155945006&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;해결법&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;title을 ’ ‘로 감싸는게 아니라 ” “로 감싼다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[오류 Command failed with exit code 1 npm install 해결법]]></title><description><![CDATA[개츠비로 깃블로그를 만드려는데 이런 에러가 떴다. img 해결법 node버전을 14.15.0으로 낮추고 node-sass를 4.14이상 버전으로 설치하면 된다. node 버전 낮추기 node sass를 호환되는 버전으로 설치하기 위에서 node.js…]]></description><link>https://gllslp.github.io/Git/오류 Command failed with exit code 1 npm install 해결법/</link><guid isPermaLink="false">https://gllslp.github.io/Git/오류 Command failed with exit code 1 npm install 해결법/</guid><pubDate>Sun, 27 Feb 2022 22:12:00 GMT</pubDate><content:encoded>&lt;p&gt;개츠비로 깃블로그를 만드려는데 이런 에러가 떴다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://postfiles.pstatic.net/MjAyMjAyMDRfMjk0/MDAxNjQzOTQ5Mjk4NDE1.ZwIwCxhxT5AZJZjF1HRy88LAELt1_F9xyazx_XgRkGQg.cot43IO4vZcHFis_O2EEjiOMLj46lcgWHRxbz3e2fgsg.PNG.evanmacmillan/image.png?type=w966&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;해결법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EB%B2%95&quot; aria-label=&quot;해결법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결법&lt;/h1&gt;
+&lt;p&gt;node버전을 14.15.0으로 낮추고 node-sass를 4.14이상 버전으로 설치하면 된다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;node 버전 낮추기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;C:\Windows\system32&gt;node -v
+v16.13.2
+
+C:\Windows\system32&gt;nvm install 14.15.0
+Downloading node.js version 14.15.0 (64-bit)...
+Complete
+Creating C:\Users\borad\AppData\Roaming\nvm\temp
+
+Downloading npm version 6.14.4... Complete
+Installing npm v6.14.4...
+
+Installation complete. If you want to use this version, type
+
+nvm use 14.15.0
+
+C:\Windows\system32&gt;nvm use 14.15.0
+Now using node v14.15.0 (64-bit)
+
+C:\Windows\system32&gt;node -v
+v14.0.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;node sass를 호환되는 버전으로 설치하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;위에서 node.js를 14.15.0으로 설치했으니까 node-sass는 4.14이상인걸 설치하면 된다.&lt;/p&gt;
+&lt;p&gt;나는 node-sass를 최신버전으로 설치했다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# node-sass 삭제 후 새로 설치 
+$ npm uninstall node-sass 
+$ npm install --save node-sass 
+
+# 최신버전 설치 확인 
+$ npm list | grep node-sass ├── node-sass@5.0.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://postfiles.pstatic.net/MjAyMjAyMDRfMTg3/MDAxNjQzOTUwODcwOTU2.-os7drd3XDQaH5a9LLO6SqbYFzAvZixmsKzgAnSsh48g.PVuOkVRtMMseZcBaLcD6MnVehL0WcfQgdONGYTSJxFgg.PNG.evanmacmillan/image.png?type=w966&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;이제 에러가 안뜬다!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://postfiles.pstatic.net/MjAyMjAyMDRfMjE4/MDAxNjQzOTUyMzY1NTky.vzvn46d6FHkLQ8f6C-thXo4RmdlbbbNNWwbuMjktVvMg.S6lh-7Vlu5xZpPic_8r_M0_HdvJDeGRNRQoPYb3nm88g.PNG.evanmacmillan/image.png?type=w966&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git stash란]]></title><description><![CDATA[하던 작업을 임시로 저장 해두고 싶을 때 사용하는 명령어    작업 도중 잠시 다른 브랜치로 변경해야할때, 아직 완성되지 않은 일을 commit하기에는 껄끄럽다.    git stash…]]></description><link>https://gllslp.github.io/Git/Git stash란/</link><guid isPermaLink="false">https://gllslp.github.io/Git/Git stash란/</guid><pubDate>Mon, 21 Feb 2022 20:34:00 GMT</pubDate><content:encoded>&lt;p&gt;하던 작업을 임시로 저장 해두고 싶을 때 사용하는 명령어   &lt;/p&gt;
 &lt;p&gt;작업 도중 잠시 다른 브랜치로 변경해야할때, 아직 완성되지 않은 일을 commit하기에는 껄끄럽다.   &lt;/p&gt;
 &lt;p&gt;git stash는 아직 마무리하지 않은 작업을 잠시 스택에 저장하는 명령어이다.   &lt;/p&gt;
 &lt;p&gt;이를통해 마무리 하지 않은 일을 commit하지 않고도 다시 꺼내와 작업할 수 있다.   &lt;/p&gt;
@@ -25,7 +84,73 @@
 &lt;p&gt;: A브랜치에서 git stash -&gt; B브랜치로 체크아웃 후 문제해결 -&gt; A브랜치로 체크아웃 후 git stash pop(또는 git stash apply)   &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git 레포지토리 미러링하기]]></title><link>https://gllslp.github.io/Git/Git 레포지토리 미러링하기/</link><guid isPermaLink="false">https://gllslp.github.io/Git/Git 레포지토리 미러링하기/</guid><pubDate>Thu, 17 Feb 2022 23:56:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git clone --mirror 기존원격레포주소
 cd 기존원격레포이름.git
 git remote set-url --push origin 새원격레포주소
-git push --mirror&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://gllslp.github.io/development/quick_start/</link><guid isPermaLink="false">https://gllslp.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
+git push --mirror&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Git오류 Encountered 36 file(s) that should have been pointers, but weren't 해결법]]></title><description><![CDATA[구글링해서 나오는 방법들을 따라해봤다. 문제의 오류.. 이 방법을 써봤다 -> 안먹힌다. git lfs pull부분에서 이런 에러가 났다. 하라는대로 git lfs logs last를 해봤더니 Git can’t resolve ref: “HEAD…]]></description><link>https://gllslp.github.io/Git/오류 Encountered 36 file(s) that should have been pointers, but weren&apos;t 해결법/</link><guid isPermaLink="false">https://gllslp.github.io/Git/오류 Encountered 36 file(s) that should have been pointers, but weren&apos;t 해결법/</guid><pubDate>Wed, 16 Feb 2022 19:26:00 GMT</pubDate><content:encoded>&lt;p&gt;구글링해서 나오는 방법들을 따라해봤다.&lt;/p&gt;
+&lt;p&gt;문제의 오류..&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Encountered 36 file(s) that should have been pointers, but weren&apos;t:
+        Assets/00. Scenes/O2OStreet/Backup/O2OStreet 1_backup.unity.meta
+        Assets/00. Scenes/O2OStreet/O2OStreet 1.unity.meta
+        Assets/00. Scenes/O2OStreet/O2OStreet.unity
+        Assets/00. Scenes/O2OStreet/O2OStreet.unity.meta
+        Assets/00. Scenes/OnlineStreet/Backup/OnlineStreet 1_backup2.unity.meta
+        Assets/00. Scenes/OnlineStreet/OnlineStreet.unity
+        Assets/00. Scenes/OnlineStreet/OnlineStreet.unity.meta
+        Assets/00. Scenes/OnlineStreet/OnlineStreet_M.unity
+        Assets/00. Scenes/OnlineStreet/OnlineStreet_M.unity.meta
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp1.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp2.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp3.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp4.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp5.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp6.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp7.PNG
+        Assets/00. Scenes/StadiumLobby/TempIMG/stadiumtemp8.PNG
+        Assets/02. Objects/CommonUI/MiniMap/O2OStreet.jpg
+        Assets/02. Objects/CommonUI/MiniMap/OnlineStreet.jpg
+        Assets/02. Objects/World/Textures/DistrictLandmarks/Stadium.png
+        Assets/02. Objects/World/Textures/O2O.png
+        Assets/02. Objects/World/Textures/Online.png
+        Assets/02. Objects/World/Textures/Social.png
+        Assets/02. Objects/World/Textures/Stadium.png
+        Assets/03. DesignAssets/00_World/O2O/Textures/O2O_D.png
+        Assets/03. DesignAssets/00_World/Social/Textures/Social_Landmark_01_D.png
+        Assets/03. DesignAssets/00_World/Social/Textures/Social_Landmark_01_N.png
+        Assets/03. DesignAssets/00_World/Social/Textures/Social_Landmark_02_D.png
+        Assets/03. DesignAssets/00_World/Social/Textures/Social_Landmark_02_N.png
+        Assets/03. DesignAssets/00_World/Social/Textures/Socialplanet_D.png
+        Assets/03. DesignAssets/00_World/Social/Textures/Socialplanet_N.png
+        Assets/03. DesignAssets/World3DModel/sourceimages/sourceimages/Plaza_Street_Atlas_01_D.TGA
+        Assets/99. ExternalLibs/Photon/PhotonBolt/assemblies/editor/protobuf-net.dll
+        Assets/99. ExternalLibs/Photon/PhotonLibs/WebSocket/websocket-sharp.dll
+        Assets/99. ExternalLibs/Vuplex/WebView/Plugins/Windows/VuplexWebViewChromium/cef.pak
+        Assets/99. ExternalLibs/Vuplex/WebView/Plugins/Windows/VuplexWebViewChromium/d3dcompiler_47.dll&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 방법을 써봤다&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git lfs uninstall
+git reset --hard
+git lfs install
+git lfs pull&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;-&gt; 안먹힌다.&lt;/p&gt;
+&lt;p&gt;git lfs pull부분에서 이런 에러가 났다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Could not pull
+
+Errors logged to C:\ETS\.git\lfs\logs\20220106T171038.0233141.log
+Use `git lfs logs last` to view the log.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;하라는대로 git lfs logs last를 해봤더니 Git can’t resolve ref: “HEAD” 라는 부분이 눈에 띄어서 git lfs를 다운받아서 설치해봤다&lt;/p&gt;
+&lt;p&gt;그리고 다시해봤더니 바뀐게 하나도 없다.&lt;/p&gt;
+&lt;p&gt;이건 문제가 아닌걸로..&lt;/p&gt;
+&lt;p&gt;그래서 아래 명령어를 쳐봤다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git rm --cached -r .
+git reset --hard
+git rm .gitattributes
+git reset .
+git checkout .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;-&gt; 안먹힌다&lt;/p&gt;
+&lt;p&gt;이번엔 이걸 해봤다&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git lfs migrate import --no-rewrite **/*&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;-&gt; 안먹힌다&lt;/p&gt;
+&lt;h2 id=&quot;해결한-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%ED%95%9C-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;해결한 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결한 방법&lt;/h2&gt;
+&lt;p&gt;마지막으로 깃 관련된것들을 모두 삭제한후(소스트리, Git, GitDesktop 등등) 재설치했다.&lt;/p&gt;
+&lt;p&gt;그리고 TortoiseGit이라는걸 설치해서 clone하니 success라고 떴다!&lt;/p&gt;
+&lt;p&gt;이후 평소에 사용하던 소스트리에 들어가서 Add를 눌러 열면 충돌없이 끝!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://gllslp.github.io/development/quick_start/</link><guid isPermaLink="false">https://gllslp.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
 &lt;h2 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create a new Gatsby site using the blog starter
 $ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
