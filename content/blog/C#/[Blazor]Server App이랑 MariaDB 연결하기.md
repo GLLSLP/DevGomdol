@@ -13,7 +13,7 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
 
 아래 사진처럼 Fetch data 페이지에 들어가면 미리 넣어진 값을 보여주는 표가 나오는데, 이걸 MariaDB에 저장된 데이터로 채우기로 했다.
 
-![GOAL](.\img\lazor Server App이랑 MariaDB 연결하기_01.png)
+
 
 
 
@@ -24,10 +24,6 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
    사진에 보이는 패키지들을 설치해준다.
 
    **버전이 서로 안맞으면 에러가나는 경우가 있어서 5.0.x로 통일해주었다.**
-
-![캡처](.img\Blazor Server App이랑 MariaDB 연결하기_02.png)
-
-![1](.img/Blazor Server App이랑 MariaDB 연결하기_03.png)
 
 
 
@@ -209,7 +205,7 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
 
    잘 나온다!
 
-   ![result](.img/Blazor Server App이랑 MariaDB 연결하기_04.PNG)
+   
 
    
 
