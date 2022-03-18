@@ -1,7 +1,9 @@
 const metaConfig = require('./gatsby-meta-config')
 
 module.exports = {
-  siteMetadata: metaConfig,
+  siteMetadata: {
+    siteUrl: 'https://gomdol-ooh-ah.com/'
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -120,5 +122,6 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-cname`
   ],
 }
