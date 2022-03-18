@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://gomdol-ooh-ah.com/Test/Test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gomdol-ooh-ah.com/Test/Blazor Server App이랑 MariaDB 연결하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gomdol-ooh-ah.com/Test/c# - #region이란/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gomdol-ooh-ah.com/Test/에러 &#039;Method &#039;Create&#039; in type &#039;Microsoft/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gomdol-ooh-ah.com/Git/오류 can not read a block mapping entry; a multiline key may not be an implicit key 해결법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gomdol-ooh-ah.com/Test/C# - Dictionary와 Hashtable의 차이점/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gomdol-ooh-ah.com/Git/오류 Command failed with exit code 1 npm install 해결법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gomdol-ooh-ah.com/Git/Gatsby 배포 후 커스텀 도메인 연결 풀리는 현상 해결하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gomdol-ooh-ah.com/Git/Git stash란/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
