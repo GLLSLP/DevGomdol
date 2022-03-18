@@ -1,8 +1,8 @@
 module.exports = {
-  title: `Bee starter`,
+  title: `개발하는 곰돌이`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  author: `[SoHyun]`,
+  introduction: `안녕하세요! 개발하는 곰돌이입니다.`,
   siteUrl: `https://gomdol-ooh-ah.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -12,7 +12,7 @@ module.exports = {
     linkedin: ``, // Your LinkedIn account
     instagram: ``, // Your Instagram account
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/gomdolicon.png`, // Add your favicon
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
