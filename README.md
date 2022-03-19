@@ -16,9 +16,7 @@
 [한국어🇰🇷](./README.ko.md)
 
 ![screenshot](./assets/screenshot.png)
-
 In this template...
-
 - 💄 Code highlight with Fira Code font
 - 🧙 CLI Tool
 - 😄 Emoji (emojione)
