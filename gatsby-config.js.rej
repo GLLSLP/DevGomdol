@@ -1,8 +1,0 @@
-diff a/gatsby-config.js b/gatsby-config.js	(rejected hunks)
-@@ -122,5 +122,6 @@
-     `gatsby-plugin-sass`,
-     `gatsby-plugin-lodash`,
-     `gatsby-plugin-sitemap`,
-+    `gatsby-plugin-cname`
-   ],
- }
