@@ -13,8 +13,6 @@ region과 endregion 사이에 있는 코드들을 펼쳤다 접었다 할 수 �
 
 왼쪽 그림처럼 region 뒤에 그룹 이름을 적고 endregion으로 묶어두면 오른쪽 그림처럼 접을 수 있다.
 
-
-
 ![220310_01.png](.\images\220310_01.png)
 
 ![220310_02.png](.\images\220310_02.png)
