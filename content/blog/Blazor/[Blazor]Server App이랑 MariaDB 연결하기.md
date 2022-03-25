@@ -23,7 +23,7 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
 
 2. appsettings.json의 "Logging" 아래에 ConnectionStrings 추가
    
-   ```
+   ```json
    {
      "Logging": {
        "LogLevel": {
@@ -44,7 +44,7 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
 
 3. Startup.cs에 아래 코드 추가
    
-   ```
+   ```cs
    >>>>>추가<<<<<
    using Microsoft.EntityFrameworkCore;
    >>>>>>><<<<<<<
@@ -62,29 +62,20 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
 
 4. AppDBContext.cs 스크립트 생성 후 작성
    
-   ```
+   ```cs
    >>>>>추가<<<<<
-   using EF = Microsoft.EntityFrameworkCore;
-   
-   namespace Test2.Data
-   {
-       public class AppDBContext : EF.DbContext
-       {
-           public AppDBContext(EF.DbContextOptions<AppDBContext> options) : base(options)
-           {
-   
-           }
-   
-           public EF.DbSet<WeatherForecast> 테이블명 { get; set; }
-   
-       }
+   using Microsoft.EntityFrameworkCore;
+   public class AppDBContext : EF.DbContext
+    {
+    public AppDBContext(EF.DbContextOptions<AppDBContext> options) : base(options)
+    {}
+   public EF.DbSet<WeatherForecast> 테이블명 { get; set; }
    }
-   >>>>><<<<<
    ```
 
 5. WeatherForecast.cs에 내용 추가
    
-   ```
+   ```cs
    using System;
    >>>>>추가<<<<<
    using System.ComponentModel.DataAnnotations;
@@ -94,7 +85,7 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
    {
        public class WeatherForecast
        {
-           >>>>>추가<<<<< ... 기본키가 되는 항목 위에 꼭 [Key]를 붙여줘야한다. 안그럼 기본키가 없다는 오류가남.
+           >>>>>추가<<<<< //기본키가 되는 항목 위에 꼭 [Key]를 붙여줘야한다. 안그럼 기본키가 없다는 오류가남.
            [Key]
            >>>>>>><<<<<<<
            public int Index { get; set; }
@@ -112,7 +103,7 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
 
 6. DB데이터를 불러올 스크립트에 아래 코드 추가. (내 샘플프로젝트에선 WeatherForecastService.cs)
    
-   ```
+   ```cs
    >>>>>추가<<<<<
    using System.Collections.Generic;
    using Microsoft.EntityFrameworkCore;
@@ -180,11 +171,13 @@ Blazor Server App으로 프로젝트를 만들었을때 나오는 샘플 페이�
    
    대충 두개만 넣어주었다.
    
+   ![220314_03.png](.\images\220314_03.png)
 
 8. 결과 확인
    
    잘 나온다!
    
+   ![220314_04.PNG](.\images\220314_04.PNG)
 
 참고
 
