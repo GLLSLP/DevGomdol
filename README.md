@@ -26,7 +26,7 @@ In this template...
 - 💬 Comment feature (disqus, utterances)
 - ☕ 'Buy me a coffee' service
 - 🤖 GA
-- ⭐ Enhance UX
+- ⭐ Enhance UX 
 - ⚙ Configurable
 
 > [About this Template](https://www.gatsbyjs.org/starters/JaeYeopHan/gatsby-starter-bee/)
