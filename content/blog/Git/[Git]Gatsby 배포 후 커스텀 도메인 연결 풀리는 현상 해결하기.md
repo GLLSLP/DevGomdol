@@ -9,8 +9,6 @@ npm run deploy를 하고나서 개인 도메인과 연결이 끊기게 되었다
 
 알고보니 Github에서 커스텀 도메인을 CNAME이라는 파일을 참조하여 설정하는데, Gatsby에서 빌드할때 이 CNAME 파일을 생성하지 않아 커밋할때 마다 파일이 삭제되어 커스텀 도메인 설정이 풀리게 된 것이다.
 
-
-
 ## 해결방법
 
 1. 패키지 설치
@@ -33,9 +31,9 @@ npm run deploy를 하고나서 개인 도메인과 연결이 끊기게 되었다
    
    ```js
    module.exports = {
-     siteUrl: `https://www.gomdol-ooh-ah.com`, // Your blog site url
+     siteUrl: `https://www.gomdol-ooh-ah.com`, // 내 도메인 주 url
    ```
 
     4.gh-pages레포지토리에 있던 CNAME파일을 main레포지토리 안에 복사하기
 
-<img src="file:///C:/Github/Fixed/content/blog/Git/images/220305_01.png" title="" alt="220305_01.png" data-align="center">
+<img title="" src="./images/220305_01.png" alt="220305_01.png" data-align="center">
