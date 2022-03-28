@@ -1,5 +1,5 @@
 ---
-title: '[Git]오류 Your site's DNS settings are using a custom subdomain 해결'
+title: '[Git]오류 Your sites DNS settings are using a custom subdomain 해결'
 date: 2022-03-28 16:17:00
 category: 'Git'
 draft: false
@@ -18,12 +18,6 @@ DNS연결 방식엔 A레코드 방식와 CNAME방식이 있다.
 ![](.\images\220328_02.PNG)
 
 이렇게 하고나면 에러는 여전히 표시되지만 도메인과 잘 연결된다
-
-
-
-
-
-
 
 <참고>
 
