@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Mar 2022 06:12:12 GMT</lastBuildDate><item><title><![CDATA[[Windows]특정 포트 번호 끄는 방법]]></title><description><![CDATA[npm start를 계속 하다보면 8000번 포트가 이미 사용중이라고 뜰때가 있다. 이럴땐 cmd창을 켜서 아래 명령어를 입력하면 된다. 첫번째 명령어를 입력하면 아래 사진처럼 해당 포트번호의 PID…]]></description><link>https://www.gomdol-ooh-ah.com/Etc/[Windows]특정 포트 번호 끄는 방법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Etc/[Windows]특정 포트 번호 끄는 방법/</guid><pubDate>Fri, 25 Mar 2022 16:37:00 GMT</pubDate><content:encoded>&lt;p&gt;npm start를 계속 하다보면 8000번 포트가 이미 사용중이라고 뜰때가 있다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Mar 2022 07:36:48 GMT</lastBuildDate><item><title><![CDATA[[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상]]></title><description><![CDATA[나를 엄청나게 속썩였던 에러이다.. Gatsby.js development 404page There’s not a page yet at /c   해결법 폴더명, md파일 이름명에 ’#‘글자가 들어가면 안된다. 나같은 경우 C#공부를 하고있어서 C…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</guid><pubDate>Mon, 28 Mar 2022 16:17:00 GMT</pubDate><content:encoded>&lt;p&gt;나를 엄청나게 속썩였던 에러이다..&lt;/p&gt;
+&lt;p&gt;Gatsby.js development 404page&lt;/p&gt;
+&lt;p&gt;There’s not a page yet at /c&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABJ0AAASdAHeZh94AAAAlklEQVQY062MbQuEIBCE/f//sJeDzEzkCk1SK7G59Kjr4x3cwLAzy+5DHnUNSinatkVVlSiKAowxVGWJpqFI2vf9axMpJYQQ4H2PdV1xVzr4VYRzjv6AdV2HaZrgvYe1NsNDCFd3zuV55tPv7nOOMYLM8wxjDLTWUEphGJ4YxxH6yKlrrTL87m3brrwsn30GpidrHf6lF8aYhRcHvzA5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220328 03&quot;
+        title=&quot;  images 220328 03&quot;
+        src=&quot;/static/238a0f6a78d0428ba99ff90ea1363dcb/c1b63/220328_03.png&quot;
+        srcset=&quot;/static/238a0f6a78d0428ba99ff90ea1363dcb/5a46d/220328_03.png 300w,
+/static/238a0f6a78d0428ba99ff90ea1363dcb/0a47e/220328_03.png 600w,
+/static/238a0f6a78d0428ba99ff90ea1363dcb/c1b63/220328_03.png 1200w,
+/static/238a0f6a78d0428ba99ff90ea1363dcb/aa440/220328_03.png 1500w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot; permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;해결법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EB%B2%95&quot; aria-label=&quot;해결법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결법&lt;/h1&gt;
+&lt;p&gt;폴더명, md파일 이름명에 ’#‘글자가 들어가면 안된다.&lt;/p&gt;
+&lt;p&gt;나같은 경우 C#공부를 하고있어서 C#이라는 이름의 폴더를 만들고 파일명에도 C#이 포함했던게 문제였다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 658px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABJ0AAASdAHeZh94AAABR0lEQVQoz1VRy07DMBDMb3PjZ4ATh6pQyq38QaoUqaAeUFFpSpLGjuPYjp0Mu64KdKWxLT/GM7OJ73s456C1RktA6JFuvnB1/4rr6Tu2hxrj4CGliPeUUrDWgmscRwzDcIFkMplgsXjB83yOm9s7PD5M8TSb0fWAczHR4AqYTuNY10RosNvtkOc5mqaJ2O/3aNsWCQ+BmM/FvzpSILVF1TpY00VFxpj40Bg6Uxree/TkLoQQZwbvJUII5MReliWKooi2vbMoiGxzqOKZlE20XFUVHD0UjYDtA8II+OESCVtg6UxW05oVswryiLH7RH4oo2ouax1610LLD1RCgX35YbxAkq1WWL+tkaZLpMslsiyLKkMgS+ZINlUMm4ttB2+pb9QYyvUcEY2/SLhrrKrrupjRqYuGLHlsvyVUI38VMiHn9D/v0/yHHyhuGAkxaWpEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220328 04&quot;
+        title=&quot;  images 220328 04&quot;
+        src=&quot;/static/11e3f9514535b1173be83ddc4cbaefa7/889a4/220328_04.png&quot;
+        srcset=&quot;/static/11e3f9514535b1173be83ddc4cbaefa7/5a46d/220328_04.png 300w,
+/static/11e3f9514535b1173be83ddc4cbaefa7/0a47e/220328_04.png 600w,
+/static/11e3f9514535b1173be83ddc4cbaefa7/889a4/220328_04.png 658w&quot;
+        sizes=&quot;(max-width: 658px) 100vw, 658px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 864px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABT0lEQVQoz6VSa3ODIBD0///GPpKYaNQIyBtRt3c4STptP3RaZna4gwN296hCTFhyRibM8/xvVMYGxBgLsG3Yx31+ju370qe97YEqJw1rNYyxGKRGM0gI46GmCc45jOMIrXWJlZRUt8e8Zq0t8bIsWNe1oPLO0OYEHyKMi3AhwccZgRizhBACzbTmA4RUcN6XCzi3zpcaviimhJlsqyJ5yOyWZOCIKRf/NEqddfRw2P0maDq3rnv9zpIkc5LpFUFSXt5eUZ9qdN0VdX3CpbngcDygaVqSZqEU2SEEETCF2e02FAUPL1ny/cJee7yfG5ybK44096OE0hZCaUzWE1yJ77lPGaOcYH1EpobNy1ZQJdIe6RVBB85ti5Zw7XpiIkmSgVTsWyhSOWeZ7GOaMyZqDFvBH2ClDjMqbnXf98X4v4/nnyqSu64DM/36p36P57kPncoMIs2lwhYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220328 05&quot;
+        title=&quot;  images 220328 05&quot;
+        src=&quot;/static/d27e1a4b712b4345913f78a9f8cfe712/9cab2/220328_05.png&quot;
+        srcset=&quot;/static/d27e1a4b712b4345913f78a9f8cfe712/5a46d/220328_05.png 300w,
+/static/d27e1a4b712b4345913f78a9f8cfe712/0a47e/220328_05.png 600w,
+/static/d27e1a4b712b4345913f78a9f8cfe712/9cab2/220328_05.png 864w&quot;
+        sizes=&quot;(max-width: 864px) 100vw, 864px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;폴더명과 파일명에서 ’#‘글자를 모두 뺐더니 해결되었다!&lt;/p&gt;
+&lt;p&gt;어차피 웹에서 보이는건 MD파일 안에있는 내용이라서, 거기에는 C#을 넣던말던 상관없다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Git]오류 Your sites DNS settings are using a custom subdomain 해결]]></title><description><![CDATA[CNAME을 추가하고나서 배포를 하는데, 이런 에러가 뜨면서 커스텀 도메인과 연결이 되지 않았다.  해결법 DNS연결 방식엔 A레코드 방식와 CNAME방식이 있다. 개츠비 블로그를 도메인과 연결하는 내용을 다루는 포스트에는 대부분 A…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Git]오류 Your site&apos;s DNS settings are using a custom subdomain 해결법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Git]오류 Your site&apos;s DNS settings are using a custom subdomain 해결법/</guid><pubDate>Mon, 28 Mar 2022 16:17:00 GMT</pubDate><content:encoded>&lt;p&gt;CNAME을 추가하고나서 배포를 하는데, 이런 에러가 뜨면서 커스텀 도메인과 연결이 되지 않았다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 752px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.33333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAAB/0lEQVQoz3VSi5KiQAz0/z/t7nb3FFFhRVEWEUQeAgOo0NeZwaurq1qqQprMpNMJmWVZht1+D9/3cQwC1HWDpvnHlNIxJb6qNa6nM4m1badx398hz+xW90iyBlmp0HWdvqD9/QHVtuiJJbF/8LuTZKWLKHqJyx3B9/tE2PVPpFmJLL+xeq2tooo+TdGpFmVNMiFPUqhrjmEc8e3Ds9kwDLqiNlZrSNKIyqLQaitFtWxHFTc0ZYXHc4BQDnwNwvEfnqFrweGAvYDagVYZL/GmNibnElMTnmysbsZemLmzMc8w7jxc1ja+FnOcrAWC+Yf2CWPZp4PUWePqbBCvbFzdDS6bNYrtJ3CJcY1jBIcASXgCbiUJywKIQqSuA+/9F/Yf79q7P38g97ZoggOao699ddijZHHBY3LGSMJnEuMeR3ichbAgIVmlUuXvEa2WOK9XuDgO4s0KMfHJtnBaLhEuLSSMhcQne4mG5EhjgMSSjySCiCNhoYPlbjslWzpBcGSzRbacsMWTJlxrk6KJ62mFuBilI1WifCkkYeEH+Fo5OM5/w3t7Q7BYILQsKjUEZ85PSCPxLBg6Hh6xUTdOCg2hzJD9q+DIgbts09YDv7rmZ8hPybeujgluee/JmY/n0LQpyqRtmWGRk5Dbr1fg7zrUZg2+MbNiZp1e32M9rRNX7Q93CIwvTIzxmwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220328 01&quot;
+        title=&quot;  images 220328 01&quot;
+        src=&quot;/static/5152c196154b2034272fa95cc3666198/442cb/220328_01.png&quot;
+        srcset=&quot;/static/5152c196154b2034272fa95cc3666198/5a46d/220328_01.png 300w,
+/static/5152c196154b2034272fa95cc3666198/0a47e/220328_01.png 600w,
+/static/5152c196154b2034272fa95cc3666198/442cb/220328_01.png 752w&quot;
+        sizes=&quot;(max-width: 752px) 100vw, 752px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;해결법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EB%B2%95&quot; aria-label=&quot;해결법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결법&lt;/h1&gt;
+&lt;p&gt;DNS연결 방식엔 A레코드 방식와 CNAME방식이 있다.&lt;/p&gt;
+&lt;p&gt;개츠비 블로그를 도메인과 연결하는 내용을 다루는 포스트에는 대부분 A레코드 방식을 추가하는것에서 끝나는데, 아래 사진처럼 CNAME을 추가하거나 수정하면 된다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 723px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB9ElEQVQoz3WSSY+bQBCF+f+/IteccsopUTyKlMXxaSRLSbyNbNlm6W4aGgOmoSGfaYvJZCnhdi2v3qtqCIQQfd8Pw9C/tGG0f2YmJzgej8651WpVluVUU0otl8vz+exxWmsp5Xq93mw2lA6Hw3a7bZom6EZD3xhzGQ0u/NPpRAOhtdaM5qtVVaGUZRmwAGKa9/t9GIbUiqIg27bt9Xqt65oMVXwo/BSEDAIG/648sWKEjITj+2njxHejwRtFEcnbzvxAswapYjQQNDMntwAjaE/klQnZEcytmT+a8zyflMlATKcX9CtA5+8ccJIknM/KXE8cx354MkAZASL6afYs084gOW87T8oe7ZX9zhj6fyvzFl4o80oZ5g9lvzPV/ypDD3eapojT40XY2V+1D/2rmpQB35WlUtQVCZ1JlRJeytKYQkgVJ0IoxT6apfh46HQO8Ga7uzaWMKiMHlyXxmEmkzJLq1zzjdq6rPL0ohWhrS62NO21Gu5z2/P+6T72XNgvSfNup2aH/JvsFsotVDeX7VdhOXkWqZuP/lhyYD6F9Vx2j7oLRBwpczlG8TGMI5kWddMOg8zy/SkkI9LM9oPURhclTuOGsrGP33+w+utDG3yW7v25efNTvH0yD4mbxd0sbj9EtwdnfLrfnI78g+g/Jt2rnf0FbqGQmcQJyEIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220328 02&quot;
+        title=&quot;  images 220328 02&quot;
+        src=&quot;/static/18d8f0aa128e8a44896ad347b99f62de/c67d4/220328_02.png&quot;
+        srcset=&quot;/static/18d8f0aa128e8a44896ad347b99f62de/5a46d/220328_02.png 300w,
+/static/18d8f0aa128e8a44896ad347b99f62de/0a47e/220328_02.png 600w,
+/static/18d8f0aa128e8a44896ad347b99f62de/c67d4/220328_02.png 723w&quot;
+        sizes=&quot;(max-width: 723px) 100vw, 723px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이렇게 하고나면 에러는 여전히 표시되지만 도메인과 잘 연결된다&lt;/p&gt;
+&lt;p&gt;&amp;#x3C;참고&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hi098123.tistory.com/210&quot;&gt;Github) We recommend you change this to a CNAME record pointing at [YOUR USERNAME].github.io - hi098123&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Windows]특정 포트 번호 끄는 방법]]></title><description><![CDATA[npm start를 계속 하다보면 8000번 포트가 이미 사용중이라고 뜰때가 있다. 이럴땐 cmd창을 켜서 아래 명령어를 입력하면 된다. 첫번째 명령어를 입력하면 아래 사진처럼 해당 포트번호의 PID…]]></description><link>https://www.gomdol-ooh-ah.com/Etc/[Windows]특정 포트 번호 끄는 방법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Etc/[Windows]특정 포트 번호 끄는 방법/</guid><pubDate>Fri, 25 Mar 2022 16:37:00 GMT</pubDate><content:encoded>&lt;p&gt;npm start를 계속 하다보면 8000번 포트가 이미 사용중이라고 뜰때가 있다.&lt;/p&gt;
 &lt;p&gt;이럴땐 cmd창을 켜서 아래 명령어를 입력하면 된다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;netstat -ano | find &quot;LISTENING&quot; | find &quot;포트번호&quot;
 
