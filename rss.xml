@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 29 Mar 2022 07:48:03 GMT</lastBuildDate><item><title><![CDATA[[Git]오류 This repository is over its data quota 해결법]]></title><description><![CDATA[용량이 큰 프로젝트를 깃헙에 올리려고 git lfs를 설치했는데, 커밋까지 잘 하고나서 푸시를 하려니까 이런 오류가 뜨면서 안됐다. 원인 git lfs는 대용량 파일을 관리해줘서 편리하지만 무제한으로 사용할수 없다. 한달에 1G…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Git]오류 This repository is over its data quota 해결법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Git]오류 This repository is over its data quota 해결법/</guid><pubDate>Tue, 29 Mar 2022 15:41:00 GMT</pubDate><content:encoded>&lt;p&gt;용량이 큰 프로젝트를 깃헙에 올리려고 git lfs를 설치했는데, 커밋까지 잘 하고나서 푸시를 하려니까 이런 오류가 뜨면서 안됐다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 29 Mar 2022 08:39:34 GMT</lastBuildDate><item><title><![CDATA[[Git]오류 This repository is over its data quota 해결법]]></title><description><![CDATA[용량이 큰 프로젝트를 깃헙에 올리려고 git lfs를 설치했는데, 커밋까지 잘 하고나서 푸시를 하려니까 이런 오류가 뜨면서 안됐다. 원인 git lfs는 대용량 파일을 관리해줘서 편리하지만 무제한으로 사용할수 없다. 한달에 1G…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Git]오류 This repository is over its data quota 해결법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Git]오류 This repository is over its data quota 해결법/</guid><pubDate>Tue, 29 Mar 2022 15:41:00 GMT</pubDate><content:encoded>&lt;p&gt;용량이 큰 프로젝트를 깃헙에 올리려고 git lfs를 설치했는데, 커밋까지 잘 하고나서 푸시를 하려니까 이런 오류가 뜨면서 안됐다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.
 error: failed to push some refs to &apos;{repo url}&apos;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원인&lt;/h3&gt;
@@ -41,7 +41,27 @@ error: failed to push some refs to &apos;{repo url}&apos;&lt;/code&gt;&lt;/pre&g
 &lt;li&gt;Source Tree일때&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;저장소-&gt;Git LFS-&gt;저장소 초기화에 들어가서 ‘Start Using Git LFS’ 클릭&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;C:%5CGithub%5CFixed%5Ccontent%5Cblog%5CGit%5Cimages%5C220329_02.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1063px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACx0lEQVQoz01SS2sTURidn9Cd2j8itFsLdaeL7rQ7hbqzYJvQklRM48Kl+y6ENlDQiESwraUPwYWtEMFKTNJ5ZTLv1525985MZjLjN1P7OJy5fFzuued83x1mrrL7eKUxv/Zp/vXxo/XDJ2++zVX3H67sPVjZu7+8M7XwYWrh48zi53vPW7Mvvtx9+n7qWXNmsTW7tANkTNtBjs2d9wSe9RyLEt9DNnIMzzUt0xREWVFUxzJsU8c+Gg5lVVWRbVLsARnTcnVdOzv7A+B5ASGk67osKxpAt5CHaRD6hHqYeD7BhPokL5CPgYznY8MwRFGEw1BYlgUFiA1dC7GdxSSmKIn8LIvThGbAbHTJiHn7PdRNx7ZMwwAadgHXsUXF+HpmH/fw7i/lqOOeytnJMDsFytdkbORDTkWWQQO2juOoqjYciMLQODiPj9hkv+Mf9IJDLsvJZ/+LggwlWFUUgRdc1809XVdRFI7jLUMfJ6NsHGJLCbGbXSO9qhiMMTj3+/2LhgEwTxgB+IejmNBAGio+JqAYpwWvihTEhGiqyvO87/uQGaYNYpZlYWwjQBTBJqU0GSc54lEckVEcjwvkzuDZ+dsBjVsAzCE/xFE1LQjCMIrCAlBT7CKDV1QNnIIgyMWmaUBsQRAcx3YKXLy2behpOr7RbZbbpSlcBGHhgQpnXYc/pNvtDouZA+AWeDkFR1qYqjSJ4iSO4zx1sY6CwDctghADJhzLnpycdrs9juMGg4EgiPB1WGG7LW7/6Lz7yf/mJFkayLLseR7oYUySJA0kiUnTFNLD80CjYd5gBOOBlgghgqL3JZWV1Pz/VlUYDaS+2QWztvayWq2Wy+VlwNJSqVR+Vautrq5ubGxk4wQjl/iIUgJH2+12pVKp1+u12nq9AHO7wJ0Ckxfr5OTExMT09HSz2dzc3Nza2mo0Gq1Wq1QqwT4cuHWJf0RqJ2ElemkYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220329 02&quot;
+        title=&quot;  images 220329 02&quot;
+        src=&quot;/static/c00a007b7eb4fb13d8fe330d4778116b/47aef/220329_02.png&quot;
+        srcset=&quot;/static/c00a007b7eb4fb13d8fe330d4778116b/5a46d/220329_02.png 300w,
+/static/c00a007b7eb4fb13d8fe330d4778116b/0a47e/220329_02.png 600w,
+/static/c00a007b7eb4fb13d8fe330d4778116b/47aef/220329_02.png 1063w&quot;
+        sizes=&quot;(max-width: 1063px) 100vw, 1063px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;2-lfs로-관리할-파일-지정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-lfs%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%A0-%ED%8C%8C%EC%9D%BC-%EC%A7%80%EC%A0%95&quot; aria-label=&quot;2 lfs로 관리할 파일 지정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. LFS로 관리할 파일 지정&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;git bash일때&lt;/li&gt;
@@ -58,7 +78,27 @@ git lfs track &quot;images/sample.jpg&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li&gt;Source Tree일때&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;‘추가’버튼을 눌러서 추적할 확장자명을 추가하고나서 ‘파일추적’버튼을 누르면 .gitattributes파일이 생성된다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;C:%5CGithub%5CFixed%5Ccontent%5Cblog%5CGit%5Cimages%5C220329_03.PNG&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상]]></title><description><![CDATA[나를 엄청나게 속썩였던 에러이다.. Gatsby.js development 404page There’s not a page yet at /c   해결법 폴더명, md파일 이름명에 ’#‘글자가 들어가면 안된다. 나같은 경우 C#공부를 하고있어서 C…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</guid><pubDate>Mon, 28 Mar 2022 16:17:00 GMT</pubDate><content:encoded>&lt;p&gt;나를 엄청나게 속썩였던 에러이다..&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 669px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABJ0AAASdAHeZh94AAACnklEQVQ4y5WT2UsbURTG/X9bfKtGhCQiilDRgtY0BZM8CC6VWB+EvhRKKlbjkkziQhaXyTKZzJKZyd5q+XruGSe0jRb68OPcOXPPN+ee+82Iz+fD1tYW1tfXmY2NDY4ftrexu/sROztxYgfxeHyw3tzcHOwXiPq1tTWMj49jZGZmBul0GplMhqMkSRzPzy+QkrKQMufI0vosLdEz7aFcNpvlfd7ey8tLJBIJTExMYGRubg7FYhGapkFRFFSrVUJBuVLBp4MCanUTjUYDmm7AMGht2Wi32+h0Okyr1cLDwwNOTk7cDoXgzc0tF+m6Dt0wKLrFuuGKCSzCNE3YtgXLsjhnPtYI0WQyCTE+FpRLJU6KjbZtD+HlRXGhUEAul0M+n+coTqeqKpLHx/B5HcqyjGazyYXP4TgOj+X09JTmmkEun+O512oq+r0ed8hHnp2dHRJ8rkNxTBGFuIfIdbtdHFOHLDg9PY27/xD8u/MhQb/fj7s7V/Cpgt8/4r33PvKkYDAQ4CMLK3gdOU9czJ8d/kMwQIKeD9V6/dE2OlmkMSjwYNvwBdmMsNCQ4NTUFN9WKnXGjr+5vmZr1MjkJokLEUGjYdIHGjBMC1Uyu0CntXgnDD7w4fz8a7JAAXJZwa1cJiocyxUFdc2A02oTHWgm3Sh1V6pb+Ja6wpGUw9WtigL5sVQq4/Dw0O3w5csXSBwcofP9J1q9H8Q9nO49jGYfutOD2ezBsFqoaA4+f/mK5eW3WHn3nghjJRRGKBRCOBzGwsKCKzg6Oor9/X30+n3+lcTwNdNGUa7hWlZQUQ1c0CiqSg17e3sQ+8UfMTb2ihgbIMQmJyfdS1laWkIsGkVkdRWRSITwYhSrlIvSOhaL4c3iIvz+AII092AwOITQ+gUfI0okDrwwzQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220329 03&quot;
+        title=&quot;  images 220329 03&quot;
+        src=&quot;/static/3d7fbc3a9e2a8220f542befa621baa36/99272/220329_03.png&quot;
+        srcset=&quot;/static/3d7fbc3a9e2a8220f542befa621baa36/5a46d/220329_03.png 300w,
+/static/3d7fbc3a9e2a8220f542befa621baa36/0a47e/220329_03.png 600w,
+/static/3d7fbc3a9e2a8220f542befa621baa36/99272/220329_03.png 669w&quot;
+        sizes=&quot;(max-width: 669px) 100vw, 669px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상]]></title><description><![CDATA[나를 엄청나게 속썩였던 에러이다.. Gatsby.js development 404page There’s not a page yet at /c   해결법 폴더명, md파일 이름명에 ’#‘글자가 들어가면 안된다. 나같은 경우 C#공부를 하고있어서 C…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</guid><pubDate>Mon, 28 Mar 2022 16:17:00 GMT</pubDate><content:encoded>&lt;p&gt;나를 엄청나게 속썩였던 에러이다..&lt;/p&gt;
 &lt;p&gt;Gatsby.js development 404page&lt;/p&gt;
 &lt;p&gt;There’s not a page yet at /c&lt;/p&gt;
 &lt;p&gt;&lt;span
