@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Mar 2022 07:36:48 GMT</lastBuildDate><item><title><![CDATA[[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상]]></title><description><![CDATA[나를 엄청나게 속썩였던 에러이다.. Gatsby.js development 404page There’s not a page yet at /c   해결법 폴더명, md파일 이름명에 ’#‘글자가 들어가면 안된다. 나같은 경우 C#공부를 하고있어서 C…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</guid><pubDate>Mon, 28 Mar 2022 16:17:00 GMT</pubDate><content:encoded>&lt;p&gt;나를 엄청나게 속썩였던 에러이다..&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 29 Mar 2022 07:48:03 GMT</lastBuildDate><item><title><![CDATA[[Git]오류 This repository is over its data quota 해결법]]></title><description><![CDATA[용량이 큰 프로젝트를 깃헙에 올리려고 git lfs를 설치했는데, 커밋까지 잘 하고나서 푸시를 하려니까 이런 오류가 뜨면서 안됐다. 원인 git lfs는 대용량 파일을 관리해줘서 편리하지만 무제한으로 사용할수 없다. 한달에 1G…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Git]오류 This repository is over its data quota 해결법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Git]오류 This repository is over its data quota 해결법/</guid><pubDate>Tue, 29 Mar 2022 15:41:00 GMT</pubDate><content:encoded>&lt;p&gt;용량이 큰 프로젝트를 깃헙에 올리려고 git lfs를 설치했는데, 커밋까지 잘 하고나서 푸시를 하려니까 이런 오류가 뜨면서 안됐다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.
+error: failed to push some refs to &apos;{repo url}&apos;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;원인&lt;/h3&gt;
+&lt;p&gt;git lfs는 대용량 파일을 관리해줘서 편리하지만 무제한으로 사용할수 없다.&lt;/p&gt;
+&lt;p&gt;한달에 1G까지만 무료이고 그 이상은 결제를 해야한다!&lt;/p&gt;
+&lt;p&gt;깃헙 계정의 Settings-&gt;Billing and plans에 들어가면 이 달의 잔여용량을 볼수 있다..&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 986px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABJ0AAASdAHeZh94AAAA5klEQVQoz62R62rDMAyF/f5vN9gYpIxd6Na1jZ3E1/h6KrkEOhh0Pyb4kGWkI1kWZ6kwLRpqWuDCijVlrDEjxPQnOFdbRxqGvIfYvbzhY/+F1/c9vk8SajYY1QLrIzwl+zURmZpFWMLdsMWjmnvtSEOJ2hqstQjBo5SMlCJyTj02RsM7C0fknFFqpZx69RsUs0YDuu+C03GA+nxAUDs4OcCrAfr0jOnwiOX41H1JAWytcelP+G5DlFIw0w6lnJByQa2tE2k/xvB0gV7gwHm3hb/BJvhQafR73BPjhtqYq+B/wIKG/uICzE0iyRqck0oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220329 01&quot;
+        title=&quot;  images 220329 01&quot;
+        src=&quot;/static/617e7776d34b42aab2aba0f0a09ef80d/0a867/220329_01.png&quot;
+        srcset=&quot;/static/617e7776d34b42aab2aba0f0a09ef80d/5a46d/220329_01.png 300w,
+/static/617e7776d34b42aab2aba0f0a09ef80d/0a47e/220329_01.png 600w,
+/static/617e7776d34b42aab2aba0f0a09ef80d/0a867/220329_01.png 986w&quot;
+        sizes=&quot;(max-width: 986px) 100vw, 986px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;해결법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EB%B2%95&quot; aria-label=&quot;해결법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결법&lt;/h3&gt;
+&lt;p&gt;방법 1. Add more data를 클릭해서 결제를 한다(월 5달러에 50GB제공)&lt;/p&gt;
+&lt;p&gt;방법 2. git lfs로 관리할 파일을 적절히 선택해 1기가가 넘지 않도록 한다(나머지 파일은 gitignore에 추가하기)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Git]Git LFS로 Github에 대용량 파일 올리기]]></title><description><![CDATA[Github에 100Mb가 넘어가는 파일을 푸시하려고 하면 에러메세지가 뜬다. 큰 파일을 푸시하려면 git LFS라는 Extension을 사용해야한다. 사용방법 git bash를 이용할때와 소스트리를 이용할때 두가지 모두 작성했다. 1. GIT LFS…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Git]Git LFS로 Github에 대용량 파일 올리기/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Git]Git LFS로 Github에 대용량 파일 올리기/</guid><pubDate>Tue, 29 Mar 2022 15:39:00 GMT</pubDate><content:encoded>&lt;p&gt;Github에 100Mb가 넘어가는 파일을 푸시하려고 하면 에러메세지가 뜬다.&lt;/p&gt;
+&lt;p&gt;큰 파일을 푸시하려면 git LFS라는 Extension을 사용해야한다.&lt;/p&gt;
+&lt;h3 id=&quot;사용방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;사용방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사용방법&lt;/h3&gt;
+&lt;p&gt;git bash를 이용할때와 소스트리를 이용할때 두가지 모두 작성했다.&lt;/p&gt;
+&lt;h4 id=&quot;1-git-lfs-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-git-lfs-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 git lfs 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. GIT LFS 설치&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;git bash일때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git lfs install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Source Tree일때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;저장소-&gt;Git LFS-&gt;저장소 초기화에 들어가서 ‘Start Using Git LFS’ 클릭&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:%5CGithub%5CFixed%5Ccontent%5Cblog%5CGit%5Cimages%5C220329_02.png&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;2-lfs로-관리할-파일-지정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-lfs%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%A0-%ED%8C%8C%EC%9D%BC-%EC%A7%80%EC%A0%95&quot; aria-label=&quot;2 lfs로 관리할 파일 지정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. LFS로 관리할 파일 지정&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;git bash일때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;아래 명령어로 파일들을 지정한 다음&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// 확장자 명으로 지정하기
+git lfs track &quot;*.확장자명&quot;
+
+// 특정 파일 지정하기
+git lfs track &quot;images/sample.jpg&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;.gitattribures 파일을 추가해준다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git add .gitattributes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Source Tree일때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;‘추가’버튼을 눌러서 추적할 확장자명을 추가하고나서 ‘파일추적’버튼을 누르면 .gitattributes파일이 생성된다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:%5CGithub%5CFixed%5Ccontent%5Cblog%5CGit%5Cimages%5C220329_03.PNG&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상]]></title><description><![CDATA[나를 엄청나게 속썩였던 에러이다.. Gatsby.js development 404page There’s not a page yet at /c   해결법 폴더명, md파일 이름명에 ’#‘글자가 들어가면 안된다. 나같은 경우 C#공부를 하고있어서 C…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Gatsby]특정 카테고리의 게시글에만 404에러가 뜨는 현상/</guid><pubDate>Mon, 28 Mar 2022 16:17:00 GMT</pubDate><content:encoded>&lt;p&gt;나를 엄청나게 속썩였던 에러이다..&lt;/p&gt;
 &lt;p&gt;Gatsby.js development 404page&lt;/p&gt;
 &lt;p&gt;There’s not a page yet at /c&lt;/p&gt;
 &lt;p&gt;&lt;span
