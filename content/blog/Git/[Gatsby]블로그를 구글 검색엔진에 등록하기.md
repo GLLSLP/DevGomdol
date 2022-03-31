@@ -1,5 +1,5 @@
 ```yaml
-title: '[Gatsby]블로그를 구글 검색엔진에 등록하기.md'
+title: '[Gatsby]블로그를 구글 검색엔진에 등록하기'
 date: 2022-03-30 10:13:00
 category: 'Git'
 draft: false
