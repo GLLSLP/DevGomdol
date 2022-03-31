@@ -1,9 +1,9 @@
-```yaml
+---
 title: '[Gatsby]블로그를 구글 검색엔진에 등록하기'
 date: 2022-03-30 10:13:00
 category: 'Git'
 draft: false
-```
+---
 
 블로그를 구글 검색엔진에 노출시키려면 <span style='background-color: #f5f0ff'>**Google Search Console**</span>이 필요하다.
 
