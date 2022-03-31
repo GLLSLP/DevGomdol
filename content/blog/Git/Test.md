@@ -11,7 +11,7 @@ draft: false
 
 ## Google Search Console 사용법
 
-우선 [Google Search Console](https://search.google.com/search-console/about?hl=ko)에 들어가서 '시작하기'를 누르면 이런 창이 뜨는데, 자신의 도메인 주소를 'URL 접두어'칸에 넣고 '계속'을 누른다.
+ '시작하기'를 누르면 이런 창이 뜨는데, 자신의 도메인 주소를 'URL 접두어'칸에 넣고 '계속'을 누른다.
 
 ![](.\images\220330_01.PNG)
 
