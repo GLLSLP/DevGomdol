@@ -13,13 +13,11 @@ draft: false
 
 Git cmd에서 **git config --list**를 입력하면 저 부분이 Github 이메일과 다른걸 확인할 수 있다.
 
-![](C:\Github\Fixed\content\blog\Git\images\220405_01.png)
+![](.\images\220405_01.png)
 
 참고로 Github 이메일주소는 Settings -> Emails에서 확인할 수 있다.
 
-![](C:\Github\Fixed\content\blog\Git\images\220405_02.png)
-
-
+![](.\images\220405_02.png)
 
 ### 해결법
 
