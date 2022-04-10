@@ -11,7 +11,7 @@ draft: false
 밑에처럼 하면 자식의 Start가 호출될때 부모의 Start도 같이 호출된다.
 
 
-- 부모 -
+- 부모
 ```
 public class Parent : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class Parent : MonoBehaviour
 }
 ```
 
-- 자식 -
+- 자식
 ```
 public class Child : Parent
 {
