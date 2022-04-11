@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://www.gomdol-ooh-ah.com/Blazor/List 사용법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.gomdol-ooh-ah.com/Unity/[Unity]Unity에서 자식이 부모의 Start, Awake, Update도 함께 호출하는법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]Github 잔디가 안심어질때/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Blazor/[Blazor]SFgrid에서 클릭이벤트 중복 막는법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Gatsby]블로그를 구글 검색엔진에 등록하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
