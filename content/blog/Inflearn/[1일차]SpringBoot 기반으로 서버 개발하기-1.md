@@ -19,25 +19,19 @@ draft: false
 
 - Api 구현
 
-  
-
 #### 잘 안되었던것
 
 Lombok을 설치하는 과정에서 lombok.jar를 이클립스 설치 경로에 넣었더니 이런 에러가 뜨면서 이클립스가 실행되지 않게 되었다.
 
-<img src="file:///C:/Github/Fixed/content/blog/Inflearn/images/220413_01.PNG" title="" alt="" width="484">
+<img title="" src="./images/220413_01.PNG" alt="" width="484">
 
 찾아보니 버전이 맞지 않아서 생기는 문제로 나왔다.
 
 eclipse.ini에서 Dosgi.requiredJavaVersion이 11로 되어있는 부분을 모두 1.8로 수정해주면 해결된다고 나왔는데, 나에겐 먹히지 않았다..
 
-
-
 #### 해결법
 
 이클립스를 가장 최신버전(2022년 03월)을 사용하지 않고 이전버전(2021년 12월)을 사용했더니 오류가 나타나지 않았다.
-
-
 
 #### 배운것/느낀점
 
