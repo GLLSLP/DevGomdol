@@ -5,7 +5,7 @@ category: '강의'
 draft: false
 ---
 
-#### 오늘 한 일
+## 오늘 한 일
 
 - No serializer found 에러 해결(ㅜㅜ)
 - Lombok 재설치
@@ -14,7 +14,11 @@ draft: false
 
 오늘은 Whitelabel 에러창때문에 시간이 걸렸다.
 
-#### 잘 안되었던것 1
+
+
+## 고충 및 해결과정
+
+### 잘 안되었던것 1
 
 에러 1.  jdbcUrl is required with d with driverClassName
 
@@ -33,11 +37,11 @@ org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis
 ### Cause: java.lang.IllegalArgumentException: jdbcUrl is required with driverClassName.
 ```
 
-#### 해결법 1
+### 해결법 1
 
 application.properties에서 spring.datasource.url을 spring.datasource.jdbc-url로 바꾸면 된다.
 
-#### 잘 안되었던것 2
+### 잘 안되었던것 2
 
 에러 2. No serializer found ~생략~ no properties discovered to create BeanSerializer
 
@@ -51,7 +55,7 @@ Type definition error: [simple type, class com.example.demo.mvc.domain.Board]; n
 org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.demo.mvc.domain.Board]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.demo.mvc.domain.Board and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
 ```
 
-#### 해결법2
+### 해결법2
 
 DTO클래스에서 필드 위에 @JsonProperty를 붙여준다.
 
@@ -83,7 +87,7 @@ public class Board {
 }
 ```
 
-#### 잘 안되었던것 3
+### 잘 안되었던것 3
 
 swagger 연동을 하려는데 이런 오류가 떴다.
 
@@ -93,10 +97,12 @@ Failed to start bean 'documentationPluginsBootstrapper'
 
 알고보니 나는 지금 Springboot을 최신버전을 쓰고 있는데, 호환되는 swagger버전이 하나도 없어서 나는 오류였다!
 
-#### 해결법 3
+### 해결법 3
 
 SpringBoot 버전을 2.4.2로 낮춘다.
 
-#### 배운것/느낀점
+
+
+## 배운것/느낀점
 
 뭔가를 시작할때마다 버전이 안맞는 오류가 항상 생기는것 같다. 습관적으로 최신버전으로 설치하는편인데, 앞으로 어떤걸 설치할건지 미리 확인한다음 호환이 되지 않는 이슈가 있는지 미리 찾아보면 시간을 많이 절약할 수 있을것 같다.
