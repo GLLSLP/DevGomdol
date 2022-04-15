@@ -19,10 +19,6 @@ draft: false
 
 - Api 구현
 
-- Swagger 설치
-
-- 게시판 API 문서화
-  
   
 
 #### 잘 안되었던것
