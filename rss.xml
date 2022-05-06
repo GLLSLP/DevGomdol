@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 05 May 2022 14:21:30 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[체크박스를 사용하기 위해선 아래 코드처럼 SFGird에 AllowSelection=“true”를 추가하고, GridSelectionSettings과 Type이 Checkbox인 GridColumn을 추가하면 된다.]]></description><link>https://www.gomdol-ooh-ah.com/Blazor/[Blazor]SFgrid에서 여러항목 체크하고 삭제하기/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Blazor/[Blazor]SFgrid에서 여러항목 체크하고 삭제하기/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[Blazor]SFgrid에서 여러항목 체크하고 삭제하기&apos;&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[개발하는 곰돌이]]></title><description><![CDATA[개발하는 곰입니다...]]></description><link>https://www.gomdol-ooh-ah.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 May 2022 17:33:44 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[체크박스를 사용하기 위해선 아래 코드처럼 SFGird에 AllowSelection=“true”를 추가하고, GridSelectionSettings과 Type이 Checkbox인 GridColumn을 추가하면 된다.]]></description><link>https://www.gomdol-ooh-ah.com/Blazor/[Blazor]SFgrid에서 여러항목 체크하고 삭제하기/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Blazor/[Blazor]SFgrid에서 여러항목 체크하고 삭제하기/</guid><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[Blazor]SFgrid에서 여러항목 체크하고 삭제하기&apos;&lt;/span&gt;
 &lt;span class=&quot;token key atrule&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token datetime number&quot;&gt;2022-03-30 14:32:00&lt;/span&gt;
 &lt;span class=&quot;token key atrule&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;C# &amp;amp; Blazor&apos;&lt;/span&gt;
 &lt;span class=&quot;token key atrule&quot;&gt;draft&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -8,7 +8,110 @@
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;GridColumns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
         &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;GridColumn&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;ColumnType.CheckBox&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;AllowFiltering&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;false&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;AllowSorting&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;false&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;Width&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;60&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;GridColumn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;GridColumns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;SfGrid&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[npm] npm WARN old lockfile 에러(미해결)]]></title><description><![CDATA[어느날 갑자기 npm관련 명령어를 치면 이런 에러가 떴다. 찾아본 해결법 1. npm 버전 낮추기 ‘버전’에 npm버전을 입력하면 된다. ->나한텐 안먹혔다. 2. node-sass 삭제 후 맞는버전 재설치 node 16버전 기준이다!]]></description><link>https://www.gomdol-ooh-ah.com/Etc/[npm] npm WARN old lockfile 에러/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Etc/[npm] npm WARN old lockfile 에러/</guid><pubDate>Wed, 04 May 2022 17:49:00 GMT</pubDate><content:encoded>&lt;p&gt;어느날 갑자기 npm관련 명령어를 치면 이런 에러가 떴다.&lt;/p&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;SfGrid&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[Git]shields.io에서 C# 추가하기]]></title><description><![CDATA[리드미에 이렇게 뱃지를 만들어서 추가하고있었는데 C#만 유독 안먹혔다  해결법 ’#‘문자는 %23으로 대체하고, 공백은 %20으로 대체해야한다. 그래서 표시될 글자가 들어갈 부분엔 C%23이라고 쓰고, 뱃지 이름인 ‘C Sharp’가 들어갈 부분엔 C…]]></description><link>https://www.gomdol-ooh-ah.com/Git/[Git]shields.io에서 CSharp 추가하기/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Git/[Git]shields.io에서 CSharp 추가하기/</guid><pubDate>Sat, 07 May 2022 02:22:00 GMT</pubDate><content:encoded>&lt;p&gt;리드미에 이렇게 뱃지를 만들어서 추가하고있었는데 C#만 유독 안먹혔다&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./images/220507_01.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;해결법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EB%B2%95&quot; aria-label=&quot;해결법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결법&lt;/h3&gt;
+&lt;p&gt;’#‘문자는 %23으로 대체하고, 공백은 %20으로 대체해야한다.&lt;/p&gt;
+&lt;p&gt;그래서 표시될 글자가 들어갈 부분엔 C%23이라고 쓰고, 뱃지 이름인 ‘C Sharp’가 들어갈 부분엔 C%20Sharp라고 써야한다.&lt;/p&gt;
+&lt;p&gt;결론은 그냥 아래처럼 쓰면 된다!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;md&quot;&gt;&lt;pre class=&quot;language-md&quot;&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;span class=&quot;token url&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;[&lt;span class=&quot;token content&quot;&gt;C Sharp&lt;/span&gt;](&lt;span class=&quot;token url&quot;&gt;http://img.shields.io/badge/-C%23-239120?style=flat-square&amp;amp;logo=C%20Sharp&amp;amp;logoColor=ffffff&lt;/span&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 404px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABJ0lEQVQoz62QTUsCURSG/WHpP3DRB7WrwMhoI0GmUbRICMo2bSYX1aadtIgwukVKCdVgIrOJyBYhpEhJ6Ew2jY7zNI5BEkkEHXg5576H9+He6+Ify7IsXIp8S+YyRzKVRBwJDhMJhBBky1nk8hXp0gWPN9fop+dUkimaxQsaTwe8FuLopX3MuwzGmcAsFhyoa8G3x5xfYmCwH3efB4/bjdfrxSdNMLwxxLSYISZNkQv4eVhdR1diGPdBnmUfL0oA43ibenSRpiJ3gJtLFaRInuXICrOhEOH5IGvRKJNjfsZHRtk52SKYDrObjzuB1m9Prmsmb/UGqqahqiraZ6/WqrZnn981anoVo6HbtJYdasv8UttzfKtzw79+evf8XQ7wp0UvdYN61QcuyvlHCSRfVQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;  images 220507 02&quot;
+        title=&quot;  images 220507 02&quot;
+        src=&quot;/static/53911abafe48ed0c2deb6d26c30e4f9e/494f9/220507_02.png&quot;
+        srcset=&quot;/static/53911abafe48ed0c2deb6d26c30e4f9e/5a46d/220507_02.png 300w,
+/static/53911abafe48ed0c2deb6d26c30e4f9e/494f9/220507_02.png 404w&quot;
+        sizes=&quot;(max-width: 404px) 100vw, 404px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;C#도 잘 추가됐다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[Vue.js]ESLint란? 그리고 사용법]]></title><description><![CDATA[의미 javascript나 typescript의 코드를 실행하지 않고도 오류를 발견해 알려주는 Node.js 패키지이다. 사용법 ESLint 설치 아래 명령어중 하나를 골라 설치하면 된다. 설치된 ESLint…]]></description><link>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]ESLint란 사용법/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Vue/[Vue.js]ESLint란 사용법/</guid><pubDate>Fri, 06 May 2022 17:50:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;의미&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%98%EB%AF%B8&quot; aria-label=&quot;의미 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;의미&lt;/h4&gt;
+&lt;p&gt;javascript나 typescript의 코드를 실행하지 않고도 오류를 발견해 알려주는 Node.js 패키지이다.&lt;/p&gt;
+&lt;h3 id=&quot;사용법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%9A%A9%EB%B2%95&quot; aria-label=&quot;사용법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사용법&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ESLint 설치&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;아래 명령어중 하나를 골라 설치하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;git&quot;&gt;&lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;// 현재 폴더에 설치하고 싶을때(package.json의 devDependencies에 추가됨)
+npm i -d eslint
+
+// 컴퓨터에 설치하고 싶을
+npm i -gd eslint&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;설치된 ESLint의 버전을 확인하고싶으면 아래 명령어를 입력하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;git&quot;&gt;&lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;// 현재 폴더에 설치되어있을 때
+node_modules/.bin/eslint -v
+
+// 컴퓨터에 설치되어있을 때
+eslint -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;ESLint 설정파일 만들기 ( .eslintrc.json )&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;git&quot;&gt;&lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;// 현재 폴더에 설치되어있을 때
+node_modules/.bin/eslint --init
+
+
+//컴퓨터에 설치되어있을 때
+eslint --init
+
+
+&amp;lt;실행시 선택지&gt;
+1. How would you like to use ESLint? ( 어디에 ESLint를 사용하실 건가요? )
+
+&gt; To check syntax only ( 문법 오류만 체크 )
+&gt; To check syntax and find problems ( 문법 오류, 에러 체크 )
+&gt; To check syntax, find problems, and enforce code style ( 문법 오류, 에러 체크, 코드 예쁘게 정리 )
+
+
+2. What type of modules does your project use? ( 어떤 타입의 모듈을 사용하실 건가요? )
+
+&gt; Javascript modules (import/export) ( 자바스크립트 모듈 형식 )
+&gt; CommonJS (require/exports) ( 바닐라 자바스크립트 형식 )
+&gt; None of these ( 설정안함 )
+
+
+3. Which framework does your project use? ( 어떤 프레임워크를 사용하시나요? )
+
+&gt; React
+&gt; Vue.js
+&gt; None of these ( 설정안함 )
+
+
+4. Does your project use Typescript? ( 타입스크립트를 사용하시나요? )
+
+&gt; No / Yes
+
+
+5. Where does your code run? ( 코드가 어떤 환경에서 실행되나요? )
+
+&gt; Browser ( 브라우저 )
+&gt; Node ( Node.js )
+
+
+6. What format do you want your config file to be in? ( 설정파일을 어떤 형식으로 만들까요? )
+
+&gt; Javascript
+&gt; YAML
+&gt; JSON
+
+
+7. Would you like to install them now with npm? ( 지금바로 npm으로 설치할까요? )
+
+&gt; No / Yes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;ESLint 사용하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;git&quot;&gt;&lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;eslint 적용할파일&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;예를들어 eslint test.js를 실행하면 test.js에 오류가 없는지 검사해준다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[npm] npm WARN old lockfile 에러(미해결)]]></title><description><![CDATA[어느날 갑자기 npm관련 명령어를 치면 이런 에러가 떴다. 찾아본 해결법 1. npm 버전 낮추기 ‘버전’에 npm버전을 입력하면 된다. ->나한텐 안먹혔다. 2. node-sass 삭제 후 맞는버전 재설치 node 16버전 기준이다!]]></description><link>https://www.gomdol-ooh-ah.com/Etc/[npm] npm WARN old lockfile 에러/</link><guid isPermaLink="false">https://www.gomdol-ooh-ah.com/Etc/[npm] npm WARN old lockfile 에러/</guid><pubDate>Wed, 04 May 2022 17:49:00 GMT</pubDate><content:encoded>&lt;p&gt;어느날 갑자기 npm관련 명령어를 치면 이런 에러가 떴다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;log&quot;&gt;&lt;pre class=&quot;language-log&quot;&gt;&lt;code class=&quot;language-log&quot;&gt;npm &lt;span class=&quot;token level warning important&quot;&gt;WARN&lt;/span&gt; old lockfile
 npm &lt;span class=&quot;token level warning important&quot;&gt;WARN&lt;/span&gt; old lockfile The &lt;span class=&quot;token domain constant&quot;&gt;package-lock.json&lt;/span&gt; file was created with an old version of npm&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 npm &lt;span class=&quot;token level warning important&quot;&gt;WARN&lt;/span&gt; old lockfile so supplemental metadata must be fetched from the registry&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
