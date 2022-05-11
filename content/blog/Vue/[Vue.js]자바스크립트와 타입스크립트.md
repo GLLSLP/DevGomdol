@@ -5,35 +5,40 @@ category: 'Vue.js'
 draft: false
 ---
 
-### JavaScript와 TypeScript
+## JavaScript와 TypeScript
 
 - TypeScript는 JavaScript 기반의 언어이다.
 - JavaScript는 스크립팅 언어이고, TypeScript는 객체지향 컴파일언어이다.
 
-
-
-#### JavaScript
+### JavaScript
 
 - 컴파일러 없이 독립적으로 사용가능하다.
+
 - 변수에 타입이 없다. (가장 큰 장점이자 단점이다)
 
 - 동적타입언어이며, 인터프리터언어이다.
+
 - 간단한 프로젝트에 적합하다.
 
-#### TypeScript
+### TypeScript
 
 - JavaScript보다 상위에 있기때문에 JavaScript의 모든 기능이 있다.
+
 - 변수에 타입을 설정할 수 있다.
+
 - 컴파일러를 통해 JavaScript파일로 변환된다.
+
 - 컴파일러 덕분에 조기 버그 감지를 할 수 있으므로 안정성이 보장된다.
+
 - 컴파일 시간이 들기 때문에 속도가 느리다.
 
 - 정적타입 언어이며, 컴파일 언어이다.
+
 - 객체지향 프로그래밍 환경을 제공한다.
+
 - 코드의 양이 많아진다.
+
 - 복잡한 프로젝트에 적합하다.
-
-
 
 ### TypeScript를 써야하는 이유
 
