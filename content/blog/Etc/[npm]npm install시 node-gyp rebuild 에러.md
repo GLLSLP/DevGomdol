@@ -40,8 +40,6 @@ exit status 1: �׼����� �źεǾ����ϴ�.
 exit status 5: 어쩌구~
 ```
 
-
-
 해결하기위해선  1. nodejs가 설치된 경로에 공백이 없어야 하고 2. nvm use 14.15.0을 입력할때 PowerShell을 관리자 권한으로 실행해서 입력해야 한다.
 
 나같은경우 nodejs를 설치할때 기본적인 경로(C:\Program Files\nodejs)에 설치했는데, Program Files에 있는 띄어쓰기가 문제가 되었다.
@@ -59,4 +57,3 @@ exit status 5: 어쩌구~
 드디어 에러없이 잘 된다!
 
 한동안 이유없이 골치썩혔던 문제라서 해결하고나니 기분이 좋다
-
