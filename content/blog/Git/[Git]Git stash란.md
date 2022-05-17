@@ -1,5 +1,5 @@
 ---
-title: 'Git stash란'
+title: '[Git]Git stash란?'
 date: 2022-02-21 20:34:00
 category: 'Git'
 draft: false
