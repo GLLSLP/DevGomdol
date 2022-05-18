@@ -33,8 +33,6 @@ npm install -g node-sass
 
 알고보니 Node Sass는 Node.js의 버전과 호환되는걸 설치해야 하는거였다..
 
-
-
 나는 Node.js 16버전을 쓰고있었는데 Node Sass 4.x.x버전을 이용하기위해선 Node.js를 14버전으로 낮춰야 했다.
 
 그래서 낮춰줬다!
