@@ -1,0 +1,98 @@
+---
+title: "[Vue.js]v-slot 사용법"
+date: 2022-05-23 17:50:00
+category: 'Vue.js'
+draft: false
+---
+
+#### 의미
+
+
+
+### 사용법
+
+1. ESLint 설치
+
+아래 명령어중 하나를 골라 설치하면 된다.
+
+```git
+// 현재 폴더에 설치하고 싶을때(package.json의 devDependencies에 추가됨)
+npm i -d eslint
+
+// 컴퓨터에 설치하고 싶을
+npm i -gd eslint
+```
+
+설치된 ESLint의 버전을 확인하고싶으면 아래 명령어를 입력하면 된다.
+
+```git
+// 현재 폴더에 설치되어있을 때
+node_modules/.bin/eslint -v
+
+// 컴퓨터에 설치되어있을 때
+eslint -v
+```
+
+2. ESLint 설정파일 만들기 ( .eslintrc.json )
+
+```git
+// 현재 폴더에 설치되어있을 때
+node_modules/.bin/eslint --init
+
+
+//컴퓨터에 설치되어있을 때
+eslint --init
+
+
+<실행시 선택지>
+1. How would you like to use ESLint? ( 어디에 ESLint를 사용하실 건가요? )
+
+> To check syntax only ( 문법 오류만 체크 )
+> To check syntax and find problems ( 문법 오류, 에러 체크 )
+> To check syntax, find problems, and enforce code style ( 문법 오류, 에러 체크, 코드 예쁘게 정리 )
+
+
+2. What type of modules does your project use? ( 어떤 타입의 모듈을 사용하실 건가요? )
+
+> Javascript modules (import/export) ( 자바스크립트 모듈 형식 )
+> CommonJS (require/exports) ( 바닐라 자바스크립트 형식 )
+> None of these ( 설정안함 )
+
+
+3. Which framework does your project use? ( 어떤 프레임워크를 사용하시나요? )
+
+> React
+> Vue.js
+> None of these ( 설정안함 )
+
+
+4. Does your project use Typescript? ( 타입스크립트를 사용하시나요? )
+
+> No / Yes
+
+
+5. Where does your code run? ( 코드가 어떤 환경에서 실행되나요? )
+
+> Browser ( 브라우저 )
+> Node ( Node.js )
+
+
+6. What format do you want your config file to be in? ( 설정파일을 어떤 형식으로 만들까요? )
+
+> Javascript
+> YAML
+> JSON
+
+
+7. Would you like to install them now with npm? ( 지금바로 npm으로 설치할까요? )
+
+> No / Yes
+```
+
+3. ESLint 사용하기
+
+```git
+eslint 적용할파일
+```
+
+예를들어 eslint test.js를 실행하면 test.js에 오류가 없는지 검사해준다!
