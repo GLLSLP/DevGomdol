@@ -1,13 +1,15 @@
 ---
-title: "[Vue.js]typescript에서 datetimeFormatter 사용하기"
+title: "[Vue.js]Typescript에서 DateTimeFormatter 사용하기"
 date: 2022-05-25 17:50:00
 category: 'Vue.js'
 draft: false
 ---
 
-js를 쓸땐 $datetimeFormatter. 라고 쓰면 바로 쓸수 있었는데 ts에선 전혀 안됐다
+타입스크립트에서 Date형식을 YYYY-MM-DD형식으로 바꾸고 싶다!
 
 
+
+자바스크립트를 쓸땐 common.js를 만든다음 아래 내용을 넣어두면 다른 js파일에서 $datetimeFormatter.로 바로 쓸수 있었는데 타입스크립트에선 그렇게 할 수 없었다. 
 
 ```ts
 export default {
@@ -18,10 +20,6 @@ export default {
     Vue.prototype.$numberFormatter = common.numberFormatter;
   }
 };
-
-// export const DataTransferItem =  (date: string | number | Date) => {
-//   return "";
-// }
 
 export const common = {
   dateFormatter: (date: string | number | Date) => {
@@ -51,8 +49,12 @@ export const common = {
   },
 ```
 
+타입스크립트에서 쓰려면 import를 해준다음  impor한이름.datetimeFormatter()로 써줘야 한다!
+
 ```ts
- 
+import { common } from "@/util/common"
  const datetime = common.datetimeFormatter(strDatetime);
- 
 ```
+
+
+역시 타입스크립트는 자바스크립트 특유의 어물쩡~이 안되는것 같다.
