@@ -1,6 +1,6 @@
 module.exports = {
   title: `개발하는 곰돌이`,
-  description: `개발하는 곰입니다...`,
+  description: `개발하는 곰입니다....`,
   author: `[Sohyun]`,
   introduction: `안녕하세요`,
   siteUrl: `https://www.gomdol-ooh-ah.com`, // Your blog site url
