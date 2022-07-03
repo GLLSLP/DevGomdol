@@ -1,5 +1,7 @@
 ![](.\images\gom%20head.png)
 
+이미지 변경
+
 ## 🧐 Customize
 
 ### ⚙ Gatsby config
@@ -7,9 +9,9 @@
 ```sh
 
 ```
- 
+
 ### ⛑ Structure
- 
+
 ```sh
 
 ```
