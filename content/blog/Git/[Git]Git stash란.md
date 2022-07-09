@@ -33,7 +33,7 @@ git stash drop : 가장 최신 stash를 삭제한다.
 
 git stash drop stash@{0} : 0번째 stash를 삭제한다.   
 
-git stash clear : stash를 모두 삭제한다.   
+git stash clear : stash를 모두 삭제한다.   .
 
 ​
 
