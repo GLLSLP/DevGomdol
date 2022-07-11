@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://www.gomdol-ooh-ah.com/Spring/[Spring]JPA 쿼리문에서 컬럼명에 언더바(_)를 써도 될까/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.gomdol-ooh-ah.com/Spring/[Spring]JPA 쿼리문에서 LIKE 여러개 하는법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.gomdol-ooh-ah.com/Spring/[Spring]JWT사용시 Postman으로 로그인 테스트하는법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/devops/[Devops] OpenShift-Cli 설치방법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Spring/[Spring]인텔리제이에서 maven dependency에 찾을 수 없다는 에러가 뜰 추가 안될때/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Spring/[Spring]WebMvcConfigurer 사용시 Override 안될때/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Study/쿠키와 세션의 차이/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Gatsby]개츠비 블로그에 TOC 추가하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]에러 Cannot find module &#039;moment&#039; or its corresponding type declarations./</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]에러 Cannot find module moment or its corresponding type declarations./</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]TypeScript의 null, undefined, void, never의 차이/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]typescript에서 datetimeFormatter 사용하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]v-slot 사용법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Gatsby]에러 ERROR 98123 WEBPACK 해결하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Etc/[npm]npm install시 node-gyp rebuild 에러/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Vue/[Vue.js]자바스크립트와 타입스크립트/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -45,8 +47,8 @@
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[MarkDown]오류 can not read a block mapping entry; a multiline key may not be an implicit key 해결법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Blazor/Dictionary와 Hashtable의 차이점/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]오류 Command failed with exit code 1 npm install 해결법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]Gatsby 배포 후 커스텀 도메인 연결 풀리는 현상 해결하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]Git stash란/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]Gatsby 배포 후 커스텀 도메인 연결 풀리는 현상 해결하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]레포지토리 미러링하기/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/Git/[Git]오류 Encountered 36 file(s) that should have been pointers, but weren&#039;t 해결법/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.gomdol-ooh-ah.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
