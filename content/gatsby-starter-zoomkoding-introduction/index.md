@@ -88,16 +88,16 @@ comments: {
 
 ```js
 author: {
-    name: '정진혁',
+    name: '곰돌',
     bio: {
       role: '개발자',
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
       thumbnail: 'zoomkoding.gif',
     },
     social: {
-      github: 'https://github.com/zoomKoding',
+      github: 'https://github.com/GLLSLP',
       linkedIn: 'https://www.linkedin.com/in/jinhyeok-jeong-800871192',
-      email: 'zoomkoding@gmail.com',
+      email: 'evanmacmillan@naver.com',
     },
 },
 ```
