@@ -1,5 +1,5 @@
 module.exports = {
-  title: `개발하는 곰돌이`,
+  title: `🍯개발하는 곰돌이🐻`,
   description: `줌코딩의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://www.zoomkoding.com`,
