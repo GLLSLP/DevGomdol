@@ -1,6 +1,6 @@
 ---
 emoji: 🔮
-title: 테스
+title: 테스트
 date: '2021-07-06 00:00:00'
 author: 줌코딩
 tags: 블로그 github-pages gatsby
