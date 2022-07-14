@@ -1,7 +1,7 @@
 ---
-emoji: 🔮
-title: JPA 쿼리문에서 LIKE 여러개 하는법
-date: '2022-06-28 14:26:00'
+emoji: 🎠
+title: 👨‍🏫JPA 쿼리문에서 LIKE 여러개 하는법🤔
+date: '2022-07-04 17:25:00'
 author: 곰덜
 tags: 블로그 JAVA gatsby
 categories: JAVA SpringBoot
