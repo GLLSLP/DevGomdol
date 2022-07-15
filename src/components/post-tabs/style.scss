@@ -24,7 +24,7 @@
         min-width: auto;
         padding: 10px 12px;
         font-family: $font-family;
-        color: var(--tab-text-color);
+        color: var(--tab-text-color);//색깔:중앙 태그 색(ALL, FEATUED, ..)
         font-weight: 500;
         font-size: 17px;
         transition: all 200ms ease;
@@ -36,8 +36,8 @@
       }
 
       .Mui-selected {
-        background-color: var(--tab-selected-background-color);
-        color: var(--tab-hover-text-color);
+        background-color: var(--tab-selected-background-color);//색깔: 선택 태그 배경색
+        color: var(--tab-hover-text-color);//색깔: 선택 태그 글자색
         border-radius: 8px;
         font-weight: 600;
         transition: all 200ms ease;

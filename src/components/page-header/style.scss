@@ -16,7 +16,7 @@
     .link {
       font-weight: 700;
       font-size: 17px;
-      color: var(--primary-text-color2);
+      color: var(--primary-text-color);//색깔:헤더(개발하는곰돌이)
 
       @include md {
         font-weight: 700;

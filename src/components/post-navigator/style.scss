@@ -10,11 +10,11 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid var(--post-card-border-color);
+    border: 1px solid var(--post-card-border-color);//색깔:이전글/다음글 네모 테두리
     border-radius: 6px;
     padding: 15px;
 
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);//색깔:이전글/다음글
 
     cursor: pointer;
     transition: transform 0.2s;
