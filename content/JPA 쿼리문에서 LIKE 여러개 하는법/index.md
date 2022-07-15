@@ -3,7 +3,7 @@ emoji: 🎠
 title: 👨‍🏫JPA 쿼리문에서 LIKE 여러개 하는법🤔
 date: '2022-07-04 17:25:00'
 author: 곰덜
-tags: 블로그 JAVA gatsby
+tags: JAVA SpringBoot
 categories: JAVA SpringBoot
 ---
 
@@ -11,13 +11,13 @@ categories: JAVA SpringBoot
 
 JPA Like 처리는 아래와같이 4가지가 있다.👇
 
-##### 1. 단순 LIKE : LIKE
+1. 단순 LIKE : LIKE
 
-##### 2. 키워드+'%' : StartingWith
+2. 키워드+'%' : StartingWith
 
-##### 3. '%'+키워드 : EndingWith
+3. '%'+키워드 : EndingWith
 
-##### 4. '%'+키워드+'%' : Containing
+4. '%'+키워드+'%' : Containing
 
 즉, 많이들 쓰는 '%어쩌구%'는 LIKE가 아니라 Containing인것이다!🙃
 
