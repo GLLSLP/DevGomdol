@@ -25,6 +25,8 @@ Github Pages는 무료 정적 웹페이지 호스팅 서비스로, Gatsby나 Jek
 
 *Gatsby를 기준으로 작성했습니다. Jekyll을 사용하시는 분들은 참고만 해주세요* 
 
+
+
 #### 1. 기존의 Gatsby 배포 방식
 
 Gatsby로 사이트를 만들면 `main`과  `gh-pages` 이렇게 두개의 브랜치가 필요하게 된다.
@@ -79,7 +81,7 @@ module.exports = {
 }
 ```
 
-
+#### 
 
 #### 3. package.json 수정
 
@@ -92,10 +94,6 @@ gatsby build 뒤에 `--prefix-paths`를 추가하고, gh-pages 뒤에 `-r 배포
 ```js
 "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -r 저장소SSH주소 -b main",
 ```
-
-
-
-
 
 ```toc
 
