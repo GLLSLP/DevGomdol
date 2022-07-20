@@ -67,6 +67,8 @@ Github Pages가 `gh-pages`의 내용을 호스팅한다는건, `main`브랜치�
 
 한 컴퓨터에서 두개 이상의 Github 계정을 사용할땐 `SSH KEY`를 발급받아 등록해야만 Clone, Pull, Push와 같은 작업을 정상적으로 할 수 있다!
 
+본계정을 이미 클론받아서 사용하고있다면, 부계정만 SSH KEY를 만들면 된다.
+
 
 
 #### 2. gatsby-config.js 수정
