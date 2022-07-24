@@ -9,7 +9,7 @@ categories: Git
 
 ## 🐢해결법
 
-git에서 user.name이나 user.email이 잘못 설정되어있을때 생기는 현상이다!🙀
+git `user.name`이나 `user.email`이 잘못 설정되어있을때 생기는 현상이다!🙀
 
 git bash를 켜고 아래 명령어를 입력해보면 현재 어떤 정보가 들어가 있는지 확인할 수 있다🐧
 
