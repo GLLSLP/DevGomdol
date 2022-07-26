@@ -1,6 +1,6 @@
 module.exports = {
   title: `🍯개발하는 곰돌이🐻`,
-  description: `줌코딩의 개발일기`,
+  description: `곰덜이의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://www.zoomkoding.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
