@@ -1,13 +1,17 @@
 ---
-emoji: 🔮
-title: OpenShift-Cli 설치방법
+emoji: 🐕
+title: OpenShift-Cli 설치방법🤍
 date: '2022-08-01 14:26:00'
 author: 곰덜
 tags: Devops
 categories: Devops
 ---
 
+## 🍈OpenShift란?
 
+
+
+## 🍠설치방법
 
 1. OpenShift Cli 다운로드
 
@@ -15,11 +19,15 @@ categories: Devops
 
 ![220626_01](220626_01.png)
 
+
+
 2. 환경변수 설정
 
 압축 해제한 폴더의 경로를 Path에 추가한다.
 
 ![220626_02](220626_02.PNG)
+
+
 
 3. 확인하기
 
