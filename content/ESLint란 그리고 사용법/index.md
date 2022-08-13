@@ -1,5 +1,5 @@
 ---
-emoji: 🐕
+emoji: 🌊🦦
 title: ESLint란? +사용법
 date: '2022-05-06 17:50:00'
 author: 곰덜
@@ -7,18 +7,13 @@ tags: Vue
 categories: Vue
 ---
 
-## 🍈ESLint란?
-
-- RedHat에서 개발한 PaaS 솔루션
-- **도커(Docker)**와 **쿠버네티스(Kubernetes)**를 제공하는 컨테이너 애플리케이션 플랫폼
-- enterprise-grade의 다양한 부가 기능이 추가되어, Web-UI, 소스 빌드 자동화, 라우터 등을 사용 가능하도록 제공
-- 57개 이상의 프로젝트 템플릿을 제공하여 즉시 Docker용 애플리케이션을 빌드하여 실행 가능
+## 🧊ESLint란?
 
 javascript나 typescript의 코드를 실행하지 않고도 오류를 발견해 알려주는 Node.js 패키지이다.
 
 
 
-## 🍠설치방법
+## ⛵설치방법
 
 1. ESLint 설치
 
