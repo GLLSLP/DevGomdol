@@ -46,7 +46,7 @@
 Github Page나 Netlify 중 원하시는 배포 환경에 따라 다음 과정을 진행하시면 빠르게 블로그를 만드실 수 있습니다.
 
 ### 🦖 GitHub Page로 만들기
-
+ 
 깃헙 페이지를 통해 블로그를 만드시다면 아래 글을 참고해주세요!  
 [Gatsby 테마로 GitHub Blog 만들기](https://www.zoomkoding.com/gatsby-github-blog/)
 
