@@ -11,6 +11,8 @@ categories: Git
 
 구글 계정만 있으면 무료로 사용할 수 있다~!💸
 
+
+
 ## 🚥Google Search Console 사용법
 
 1. 시작하기🍳
@@ -88,6 +90,8 @@ export function Head({ description, lang, meta, keywords, title }) {
 왼쪽에 있는 메뉴 중 Sitemaps를 클릭해서 사이트맵 URL을 입력하는 위치에 `sitemap.xml`을 입력하고 제출을 누르면 된다!😋
 
 ![](220330_05.PNG)
+
+
 
 
 
