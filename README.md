@@ -13,7 +13,7 @@
 > 혹시 만드시는 과정에서 궁금하신 점이나 어려움이 있으시다면 [이슈](https://github.com/zoomKoding/zoomkoding-gatsby-blog/issues/new)를 통해 문의 남겨주세요!  
 > ⭐️는 블로그 운영에 큰 힘이 됩니다!😊
 
-## ✨ 기능
+## ✨ 카테고리
 
 
 - 😛 미모지와 문자 애니메이션를 통한 자기 소개
